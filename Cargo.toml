@@ -1,0 +1,23 @@
+[package]
+name = "ipopt"
+version = "0.0.1"
+authors = ["Kibeom Kim <kk1674@nyu.edu>"]
+build = "build.rs"
+
+# TODO
+#description = "..."
+#documentation = "..."
+#homepage = "..."
+#repository = "..."
+#keywords = ["...", "..."]
+#license = "..."
+
+[dependencies]
+libc = "*"
+
+#[build-dependencies]
+#bindgen = "*"
+
+[build-dependencies.bindgen]
+git = "https://github.com/crabtw/rust-bindgen.git"
+#path = "../rust-bindgen"
