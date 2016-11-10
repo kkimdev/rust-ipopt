@@ -7,6 +7,7 @@ extern crate bindgen;
 use std::env;
 use std::path::Path;
 
+
 fn main() {
     // TODO: Hard coded path is not good. :/.
     let binding = bindgen::builder()
